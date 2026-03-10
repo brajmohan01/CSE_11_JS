@@ -131,7 +131,7 @@ let collection = [
     908009808,
     undefined,
     null,
-    new String("abc"),
+    new String("abc"), 
     new Date(),
 ]
 
