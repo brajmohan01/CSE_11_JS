@@ -62,3 +62,92 @@ for(count = 0; count < 10; count++) {
     document.write("Count: " + count + "<br>");
 }
 document.write("Loop Stopped! <br>");
+
+var count2 = 0;
+document.write("Starting While Loop <br>");
+while(count2 < 10){
+    document.write("Count: " + count2 + "<br>");
+    count2++;
+}
+document.write("While Loop Stopped! <br>");
+
+//conditional statements
+let age = 20;
+if(age>=18){
+    console.log('You are an adult');
+}
+else{
+    console.log('You are a minor');
+}
+
+//switch case
+var grade = 'D';
+document.write("Entering Switch Case <br>");
+switch(grade){
+    case 'A':document.write("Excellent! <br>");
+    break;
+    case 'B':document.write("Good! <br>");
+    break;
+    case 'C':document.write("Average! <br>");
+    break;
+    case 'D':document.write("Passed <br>");
+    break;
+    case 'E':document.write("Failed <br>");
+    break;
+    default:document.write("Invalid Grade! <br>");
+}
+
+document.write("Exiting switch case")
+
+// functions
+function myFunction() {
+    alert("Hello World!")
+}
+function sayHello(name , age) {
+    document.write(name + " is "+ age + " years old")
+}
+
+//normal function
+function add(a, b) {
+    return a + b;
+}
+//arrow function
+var add2 = (a, b)=>{
+    return a + b;
+}
+
+// Array - it is an ordered collection of data. Array is a special kind of object, declared with square brackets 
+const myInformation = [];
+var myinfo = new Array();
+var myinfo1 = Array;
+console.log(myinfo , myinfo1);
+
+let collection = [
+    {},
+    [],
+    true,
+    "John",
+    function(){},
+    908009808,
+    undefined,
+    null,
+    new String("abc"),
+    new Date(),
+]
+
+console.log(collection);
+collection.teacherName = "John Mack";
+collection.phoneNo = 456666;
+console.log(collection);
+
+var trainerinfo = ["Jitendra", 29 , "Ghaziabad" , {isMarried: false}];
+console.log(trainerinfo.length);
+
+trainerinfo.contactNo = 9876543210;
+console.log(trainerinfo);
+console.log(trainerinfo.length);
+
+trainerinfo[0] = "Jitendra Kumar";
+console.log(trainerinfo);
+console.log(trainerinfo.length);
+
