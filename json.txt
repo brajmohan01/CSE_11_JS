@@ -1,1 +1,8 @@
 superHeros.members[0].powers[2]
+
+arrow function -- higher order function
+
+const add = (a,b) => {
+    return a+b;
+}
+
