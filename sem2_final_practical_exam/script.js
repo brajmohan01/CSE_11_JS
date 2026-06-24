@@ -15,6 +15,6 @@ startBtn.addEventListener('click', () => {
     for (let i = value; i >= 1; i--) {
         setTimeout(() => {
             display.textContent = i;
-        }, (value - i) * 600);
+        }, (value - i) * 1000);
     }
 });
